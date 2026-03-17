@@ -114,7 +114,9 @@
       "Bash(/tmp/deployment-summary.txt:*)",
       "Bash(/tmp/shareable-deployment.md:*)",
       "Bash(__NEW_LINE_c715b1a56ebd5cba__ cat:*)",
-      "Bash(gh auth:*)"
+      "Bash(gh auth:*)",
+      "Bash(/tmp/github-setup.txt:*)",
+      "Bash(__NEW_LINE_00f6d1002602f9b2__ cat:*)"
     ]
   }
 }
