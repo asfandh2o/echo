@@ -2,7 +2,8 @@
   "$schema": "https://railway.app/railway.schema.json",
   "build": {
     "builder": "dockerfile",
-    "dockerfile": "frontend/Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": "frontend"
   },
   "deploy": {
     "numReplicas": 1
