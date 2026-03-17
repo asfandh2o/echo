@@ -29,7 +29,7 @@ services:
   - type: web
     name: echo-frontend
     runtime: node
-    buildCommand: "cd frontend && npm install && npm run build"
+    buildCommand: "npm --prefix frontend install && npm --prefix frontend run build"
     startCommand: "npm --prefix frontend run preview -- --host"
     envVars:
       - key: VITE_API_URL
