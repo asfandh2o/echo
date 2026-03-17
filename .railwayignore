@@ -1,0 +1,7 @@
+*.py
+main.py
+workers/
+.env
+.env.local
+render.yaml
+docker-compose.yml
