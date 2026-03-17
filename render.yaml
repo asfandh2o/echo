@@ -30,7 +30,8 @@ services:
     name: echo-frontend
     runtime: node
     buildCommand: "cd frontend && npm install && npm run build"
-    startCommand: "cd frontend && npm run preview -- --host"
+    startCommand: "npm run preview -- --host"
+    rootDir: "frontend"
     envVars:
       - key: VITE_API_URL
         value: https://echo-api.onrender.com
